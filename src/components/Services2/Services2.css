@@ -1,0 +1,60 @@
+/* .services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 30rem;
+  margin-top: 9rem;
+  margin-bottom: 10rem;
+  padding-top: 3rem;
+} */
+
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 30rem;
+  margin-bottom: 8rem;
+  margin-top: 9rem;
+  margin-bottom: 13rem;
+  /* scroll view */
+  padding-top: 3rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
+.card:hover {
+  background: linear-gradient(180deg, #fff, #fff);
+  color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
+
+@media screen and (max-width: 480px) {
+  .services {
+    margin-top: -200px;
+    flex-direction: column;
+    gap: 5rem;
+    height: 145rem;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services {
+    /* Add your styles for screens with max-width: 768px */
+    margin-top: 0;
+    height: auto;
+  }
+  .card {
+    /* Adjust card styles for screens with max-width: 768px */
+    width: 100%; /* Adjust width for full width on smaller screens */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .services {
+    /* Add your styles for screens with max-width: 768px */
+    margin-top: 0;
+    height: auto;
+  }
+  .card {
+    /* Adjust card styles for screens with max-width: 768px */
+    width: 100%; /* Adjust width for full width on smaller screens */
+  }
+}

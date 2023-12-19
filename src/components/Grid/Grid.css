@@ -1,0 +1,53 @@
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  transition: linear-gradient(180deg, #21e287, #002365) 0.3s ease; /* Add a smooth transition effect */
+}
+.grids {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 30rem;
+  margin-bottom: 8rem;
+  margin-top: 9rem;
+  margin-bottom: 13rem;
+  /* scroll view */
+  padding-top: 3rem;
+}
+
+.card:hover {
+  background: linear-gradient(180deg, #21e287, #002365);
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .grids {
+    flex-direction: column;
+    gap: 5rem;
+    height: 145rem;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grids {
+    /* Add your styles for screens with max-width: 768px */
+    margin-top: 0;
+    height: auto;
+  }
+  .card {
+    /* Adjust card styles for screens with max-width: 768px */
+    width: 100%; /* Adjust width for full width on smaller screens */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grids {
+    /* Add your styles for screens with max-width: 768px */
+    margin-top: 0;
+    height: auto;
+  }
+  .card {
+    /* Adjust card styles for screens with max-width: 768px */
+    width: 100%; /* Adjust width for full width on smaller screens */
+  }
+}

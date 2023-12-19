@@ -1,0 +1,30 @@
+.happyc {
+  margin-top: 100px;
+}
+
+.gallery {
+  background-image: url("C:/task/website/src/img/bg1.jpeg");
+  background-size: cover;
+  padding: 80px 0;
+  margin-left: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.col {
+  flex: 0 0 calc(25% - 15px);
+  max-width: calc(25% - 15px);
+}
+
+.gallery-item {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

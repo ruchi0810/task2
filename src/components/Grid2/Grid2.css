@@ -1,0 +1,11 @@
+.card {
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+  /* transition: background 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* .card:hover {
+  background: linear-gradient(180deg, #21e287, #002365);
+  color: #fff;
+} */

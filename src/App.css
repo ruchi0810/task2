@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Inline&family=Bungee+Shade&family=Butcherman&family=Cabin+Sketch&family=Dancing+Script:wght@600;700&family=Faster+One&family=Fugaz+One&family=Geostar+Fill&family=Michroma&family=Monoton&family=Nosifer&family=Noto+Sans&family=Orbitron:wght@400;500&family=Permanent+Marker&family=Pixelify+Sans&family=Poppins:wght@500&family=Raleway&family=Rampart+One&family=Rubik+Beastly&family=Sacramento&family=Teko&family=Tilt+Prism&family=Train+One&display=swap");
+:root {
+  --yellow: #21e287;
+  --orange: hwb(152 13% 11%);
+  --black: #002365;
+  --gray: #313540;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: #1dce83;
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+
+.button {
+  background: linear-gradient(200deg, #21e287 26.71%, #002365 99.36%);
+  /* box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42); */
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+  }
+}
