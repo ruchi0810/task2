@@ -1,10 +1,16 @@
 import React from "react";
 import "./Footer2.css";
-import { FaInstagram } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { CiTwitter } from "react-icons/ci";
-import { FaSquareTwitter } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa6";
+// import { FaFacebook } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
+// import { CiTwitter } from "react-icons/ci";
+// import { FaSquareTwitter } from "react-icons/fa6";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaLinkedin,
+  FaTwitterSquare,
+} from "react-icons/fa";
 
 function Footer2() {
   return (
@@ -74,18 +80,13 @@ function Footer2() {
           <div className="sb_footer-links_div">
             <h4>For Coming soon</h4>
             <div className="socialmedia">
-              <p>
-                <img src={FaFacebook} alt="" />
-              </p>
-              <p>
-                <img src={FaLinkedin} alt="" />
-              </p>
-              <p>
-                <img src={FaSquareTwitter} alt="" />
-              </p>
-              <p>
-                <img src={FaInstagram} alt="" />
-              </p>
+              <FaFacebook />
+
+              <FaLinkedin />
+
+              <FaTwitterSquare />
+
+              <FaInstagram />
             </div>
           </div>
         </div>
